@@ -21,6 +21,9 @@ dependencies = [
     "matplotlib>=3.5.0",
     "tqdm>=4.62.0",
     "click>=8.0.0",
+    "streamlit>=1.28.0",
+    "plotly>=5.18.0",  # For interactive charts
+    "pydeck>=0.8.0",  # For map visualization
 ]
 
 [project.optional-dependencies]
@@ -38,6 +41,7 @@ full = [
 
 [project.scripts]
 lidar-excavation = "lidar_excavation.cli:main"
+lidar-excavation-web = "lidar_excavation.web:run"
 
 [tool.setuptools.packages.find]
 where = ["src"]

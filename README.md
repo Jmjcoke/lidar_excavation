@@ -43,6 +43,24 @@ Optional:
 
 ## Quick Start
 
+### Web Interface (Recommended)
+
+Launch the browser-based interface:
+
+```bash
+streamlit run src/lidar_excavation/app.py
+```
+
+Or after installation:
+
+```bash
+lidar-excavation-web
+```
+
+Then open http://localhost:8501 in your browser.
+
+![Web Interface](examples/web_interface.png)
+
 ### Command Line
 
 ```bash
